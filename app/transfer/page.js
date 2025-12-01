@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 
 const baslangicFormu = {
-  teslimEden: '',
-  teslimAlan: '',
-  hedefKonum: '',
+  teslimEden: 'Halil İbrahim Cerit',
+  teslimAlan: 'Ener Alikan',
+  hedefKonum: 'Bar',
   aciklama: ''
 };
 
@@ -51,6 +51,9 @@ export default function TransferPage() {
 
   const handleFormDegisim = (e) => {
     const { name, value } = e.target;
+    if (name === 'teslimEden') {
+      return;
+    }
     setForm((prev) => ({
       ...prev,
       [name]: value
@@ -191,32 +194,34 @@ export default function TransferPage() {
                     type="text"
                     name="teslimEden"
                     value={form.teslimEden}
-                    onChange={handleFormDegisim}
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Teslim eden personel"
+                    readOnly
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-600 cursor-not-allowed"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">Teslim Alan *</label>
-                  <input
-                    type="text"
+                  <select
                     name="teslimAlan"
                     value={form.teslimAlan}
                     onChange={handleFormDegisim}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Teslim alan kişi"
-                  />
+                  >
+                    <option value="Ener Alikan">Ener Alikan</option>
+                    <option value="Barboy">Barboy</option>
+                    <option value="Mutfak Şefi">Mutfak Şefi</option>
+                  </select>
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">Hedef Konum *</label>
-                  <input
-                    type="text"
+                  <select
                     name="hedefKonum"
                     value={form.hedefKonum}
                     onChange={handleFormDegisim}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Gönderim yapılacak yer"
-                  />
+                  >
+                    <option value="Bar">Bar</option>
+                    <option value="Mutfak">Mutfak</option>
+                  </select>
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-gray-700 mb-2">Not</label>

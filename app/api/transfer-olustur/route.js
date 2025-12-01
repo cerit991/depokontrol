@@ -37,6 +37,31 @@ export async function POST(request) {
     const body = await request.json();
     const { teslimEden, teslimAlan, hedefKonum, aciklama, urunler } = body;
 
+    const sabitTeslimEden = 'Halil İbrahim Cerit';
+    const izinliTeslimAlanlar = ['Ener Alikan', 'Barboy', 'Mutfak Şefi'];
+    const izinliHedefKonumlar = ['Bar', 'Mutfak'];
+
+    if (!teslimEden || teslimEden !== sabitTeslimEden) {
+      return NextResponse.json(
+        { hata: 'Teslim eden bilgisi değiştirilemez.' },
+        { status: 400 }
+      );
+    }
+
+    if (!izinliTeslimAlanlar.includes(teslimAlan)) {
+      return NextResponse.json(
+        { hata: 'Teslim alan sadece Ener Alikan veya Barboy olabilir.' },
+        { status: 400 }
+      );
+    }
+
+    if (!izinliHedefKonumlar.includes(hedefKonum)) {
+      return NextResponse.json(
+        { hata: 'Hedef konum sadece Bar veya Mutfak olabilir.' },
+        { status: 400 }
+      );
+    }
+
     if (!teslimEden || !teslimAlan || !hedefKonum) {
       return NextResponse.json(
         { hata: 'Teslim eden, teslim alan ve hedef konum alanları zorunludur' },
@@ -53,6 +78,14 @@ export async function POST(request) {
 
     const urunDb = readJson(urunDbPath);
     const transferDb = readJson(transferDbPath);
+
+    if (!Array.isArray(urunDb.urunler)) {
+      urunDb.urunler = [];
+    }
+
+    if (!Array.isArray(transferDb.transfers)) {
+      transferDb.transfers = [];
+    }
 
     const transferKalemleri = [];
     const simdi = new Date().toISOString();
@@ -101,7 +134,7 @@ export async function POST(request) {
 
     const transferKaydi = {
       id: `TR${Date.now()}`,
-      teslimEden,
+      teslimEden: sabitTeslimEden,
       teslimAlan,
       hedefKonum,
       aciklama: aciklama || '',

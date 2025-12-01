@@ -42,7 +42,16 @@ function readTransfers() {
     return { transfers: [] };
   }
   const raw = fs.readFileSync(transferDbPath, 'utf8');
-  return JSON.parse(raw);
+  try {
+    const parsed = JSON.parse(raw || '{}');
+    if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.transfers)) {
+      return { transfers: [] };
+    }
+    return { transfers: parsed.transfers };
+  } catch (error) {
+    console.error('Transfer verisi okunamadı, varsayılan kullanılacak:', error);
+    return { transfers: [] };
+  }
 }
 
 function formatDate(date) {
