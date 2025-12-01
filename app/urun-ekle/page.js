@@ -36,7 +36,13 @@ export default function UrunEklePage() {
       const data = await response.json();
 
       if (response.ok) {
-        alert(`Ürün başarıyla eklendi! Oluşturulan barkod: ${data?.urun?.barkod || 'bilinmiyor'}`);
+        const mesaj = data?.mesaj || 'İşlem tamamlandı';
+        const barkodBilgisi = data?.urun?.barkod ? ` Barkod: ${data.urun.barkod}.` : '';
+        const miktarBilgisi = typeof data?.urun?.miktar === 'number'
+          ? ` Güncel miktar: ${data.urun.miktar} ${(data.urun.birim || '').trim()}`
+          : '';
+
+        alert(`${mesaj}.${barkodBilgisi}${miktarBilgisi}`.trim());
         setFormData({
           ad: '',
           kategori: '',

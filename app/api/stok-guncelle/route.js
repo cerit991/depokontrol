@@ -22,10 +22,19 @@ function ensureDatabase() {
   }
 }
 
-function readJson(filePath) {
+function readJson(filePath, fallback) {
   ensureDatabase();
-  const raw = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(raw);
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8');
+    const parsed = JSON.parse(raw || '{}');
+    if (filePath === hareketDbPath && !Array.isArray(parsed.hareketler)) {
+      return { hareketler: [] };
+    }
+    return parsed;
+  } catch (error) {
+    console.error('JSON okuma hatası, varsayılan kullanılacak:', error);
+    return fallback ?? {};
+  }
 }
 
 function writeJson(filePath, data) {
@@ -33,7 +42,10 @@ function writeJson(filePath, data) {
 }
 
 function appendHareket(kayit) {
-  const hareketKaydi = readJson(hareketDbPath);
+  const hareketKaydi = readJson(hareketDbPath, { hareketler: [] });
+  if (!Array.isArray(hareketKaydi.hareketler)) {
+    hareketKaydi.hareketler = [];
+  }
   hareketKaydi.hareketler.push(kayit);
   writeJson(hareketDbPath, hareketKaydi);
 }
@@ -58,7 +70,7 @@ export async function POST(request) {
       );
     }
 
-    const db = readJson(urunDbPath);
+    const db = readJson(urunDbPath, { urunler: [] });
     const urun = db.urunler.find((item) => item.id === urunId || item.barkod === urunId);
 
     if (!urun) {
