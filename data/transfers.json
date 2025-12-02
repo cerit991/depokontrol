@@ -1,3 +1,1130 @@
 {
-  "transfers": []
+  "transfers": [
+    {
+      "id": "TR1764672282396",
+      "teslimEden": "Halil İbrahim Cerit",
+      "teslimAlan": "Ener Alikan",
+      "hedefKonum": "Bar",
+      "aciklama": "",
+      "urunler": [
+        {
+          "id": "1723589439321",
+          "ad": "SANCERRE BYZ",
+          "barkod": "BRK7834393785",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1716313854993",
+          "ad": "KAYRA V. CHAR.  BYZ 75CL",
+          "barkod": "BRK6251586642",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 3
+        },
+        {
+          "id": "1730897807495",
+          "ad": "SUVLA CHARDONNAY",
+          "barkod": "BRK2717017747",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 4
+        },
+        {
+          "id": "1709705036753",
+          "ad": "KAYRA V. S.BLANCO BYZ",
+          "barkod": "BRK3879083046",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1714168710025",
+          "ad": "LAMBERTİ BYZ 75CL",
+          "barkod": "BRK1869705932",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 137
+        },
+        {
+          "id": "1786360149585",
+          "ad": "PORTA D. BYZ 75CL",
+          "barkod": "BRK0090610709",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 173
+        },
+        {
+          "id": "1795990427964",
+          "ad": "GORDON GIN PINK 70CL",
+          "barkod": "BRK6867635881",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1731063592675",
+          "ad": "CİN HENDRİCKS 70CL",
+          "barkod": "BRK9497749477",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1737224242525",
+          "ad": "BEEFEATER GIN 100CL",
+          "barkod": "BRK8018325462",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.8,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1779241829124",
+          "ad": "CİN MALF GIN ROSA 70CL",
+          "barkod": "BRK1664044745",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1728613092055",
+          "ad": "CİN MONKEY47 SCHWRZL 50CL",
+          "barkod": "BRK4457723056",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1729742531743",
+          "ad": "CİN BEEFETER PİNK 70CL",
+          "barkod": "BRK8642401269",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1.2,
+          "kalanMiktar": 3
+        },
+        {
+          "id": "1711979364973",
+          "ad": "CİN MONKEY47 SLOE 50CL",
+          "barkod": "BRK9878253361",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.35,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1729983944240",
+          "ad": "GORDON CIN 100CL",
+          "barkod": "BRK2606072370",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1.5,
+          "kalanMiktar": 17
+        },
+        {
+          "id": "1798250134262",
+          "ad": "CİN TANGUERAY TEN 70CL",
+          "barkod": "BRK5443662795",
+          "kategori": "CİNLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 6
+        },
+        {
+          "id": "1746324069609",
+          "ad": "HENNSY X.O 70CL",
+          "barkod": "BRK2884430673",
+          "kategori": "COGNAC GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1752253680054",
+          "ad": "REMMY MARTİN VSOP 70CL",
+          "barkod": "BRK6943733523",
+          "kategori": "COGNAC GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1704288128143",
+          "ad": "PRODOM KIRMIZI ŞİŞE",
+          "barkod": "BRK5864078957",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1767702669134",
+          "ad": "MALBEC TERRAZOS 75CL",
+          "barkod": "BRK4810633755",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1735926178029",
+          "ad": "ASTİCUS MONS CAMLİJA",
+          "barkod": "BRK1868549411",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 3
+        },
+        {
+          "id": "1773851216800",
+          "ad": "NEVİ ŞAHSINA MÜNASIR",
+          "barkod": "BRK1816617496",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1768861057420",
+          "ad": "SARAFIN CAB.SAUV.KRM",
+          "barkod": "BRK4773866446",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1745167246320",
+          "ad": "K.D PENDORE SYRAH KRM",
+          "barkod": "BRK0676901630",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1705411899841",
+          "ad": "LİKYA VİNEYARDS KRM",
+          "barkod": "BRK7002869347",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1709590361747",
+          "ad": "KAYRA V.MERLOT KRM",
+          "barkod": "BRK4161592005",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1752549687654",
+          "ad": "K.D COTES D AVANOS KRM",
+          "barkod": "BRK6345308042",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1717209088338",
+          "ad": "M.PORTA CAELİ AMENT KRM",
+          "barkod": "BRK2949541816",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 7
+        },
+        {
+          "id": "1779253532687",
+          "ad": "KAYRA V.CAB.SAUV. KRM",
+          "barkod": "BRK8444029731",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 11
+        },
+        {
+          "id": "1768004360134",
+          "ad": "KAYRA ÖKÜZGÖZÜ",
+          "barkod": "BRK2689125492",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 17
+        },
+        {
+          "id": "1793657658372",
+          "ad": "PORTA D. KRM 75CL",
+          "barkod": "BRK5097061141",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 104
+        },
+        {
+          "id": "1703621978587",
+          "ad": "LAMBERTİ KRM 75CL",
+          "barkod": "BRK2083480208",
+          "kategori": "KIRMIZI ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 263
+        },
+        {
+          "id": "1764920891684",
+          "ad": "LİKÖR LİMENCELLO 1 LT",
+          "barkod": "BRK1839979722",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1776174190542",
+          "ad": "LİKÖR MEZCAL MITRE 70CL",
+          "barkod": "BRK1809744537",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1765586659587",
+          "ad": "LİKÖR APEROL 1 LT",
+          "barkod": "BRK1795557182",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 12
+        },
+        {
+          "id": "1747591953946",
+          "ad": "LİKÖR CONTREAU 1 LT",
+          "barkod": "BRK5714685818",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1756990783330",
+          "ad": "LİKÖR KAHLUA 1 LT",
+          "barkod": "BRK3741385407",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1751461489613",
+          "ad": "LİKÖR TİA MARİA 70CL",
+          "barkod": "BRK9514247885",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1770088147078",
+          "ad": "LİKÖR BAİLEYS 70 CL",
+          "barkod": "BRK5866027645",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1773980973344",
+          "ad": "LİKÖR MALİBU 70CL",
+          "barkod": "BRK7245613862",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 18
+        },
+        {
+          "id": "1746265143608",
+          "ad": "LİKÖR DISARONNO 70CL",
+          "barkod": "BRK0477917861",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1798301859538",
+          "ad": "LİKÖR SAFARİ 70CL",
+          "barkod": "BRK5686266654",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1760281028905",
+          "ad": "LİKÖR JAGERMEISTER 1LT",
+          "barkod": "BRK6946628224",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 1.2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1785154766267",
+          "ad": "ARCHERS 70CL",
+          "barkod": "BRK6265375265",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 4
+        },
+        {
+          "id": "1721796943684",
+          "ad": "CARDINAL MELON 70CL",
+          "barkod": "BRK1361406879",
+          "kategori": "LİKÖRLER GRUBU",
+          "birim": "adet",
+          "miktar": 0.2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1748609654593",
+          "ad": "RUFFINO",
+          "barkod": "BRK2270736091",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1750142996414",
+          "ad": "RUFFINO ROZE",
+          "barkod": "BRK4462199673",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1721655632551",
+          "ad": "MOETCHANDOM ROSE İMP.",
+          "barkod": "BRK5342871012",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1702302174628",
+          "ad": "MOET&CHANDON BRUT IMP.",
+          "barkod": "BRK5775347333",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1770972607660",
+          "ad": "MOET&CHANDON İCE İMP.",
+          "barkod": "BRK9054715180",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1766437482228",
+          "ad": "MOET&CHANDOM ICE ROSE",
+          "barkod": "BRK4559002191",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 18
+        },
+        {
+          "id": "1703721912684",
+          "ad": "TALLERO KÖPÜKLÜ 75 CL",
+          "barkod": "BRK1149275550",
+          "kategori": "PROSECCO VE ŞAMPANYA",
+          "birim": "adet",
+          "miktar": 3,
+          "kalanMiktar": 580
+        },
+        {
+          "id": "1763706794062",
+          "ad": "YENİ RAKI 35 CL",
+          "barkod": "BRK8175484978",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1761410063731",
+          "ad": "TEKİRDAĞ ALTIN SERİ 70CL",
+          "barkod": "BRK2453026630",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1730564068620",
+          "ad": "RAKI MERCAN 70CL",
+          "barkod": "BRK9173831767",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 3
+        },
+        {
+          "id": "1745997169424",
+          "ad": "TEKİRDAĞ ALTIN SERİ 50CL",
+          "barkod": "BRK7597953640",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1729881645296",
+          "ad": "YENI RAKI 70 CL",
+          "barkod": "BRK2513305399",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1762523978291",
+          "ad": "BEYLERBEYİ GÖBEK 35CL",
+          "barkod": "BRK8600696575",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1710168732400",
+          "ad": "TEKİRDAĞ ALTINSERİ 35 CL",
+          "barkod": "BRK3348407369",
+          "kategori": "RAKILAR",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1712597355051",
+          "ad": "TEKİLA ZACAPA 70CL",
+          "barkod": "BRK6207045301",
+          "kategori": "ROMLAR GRUBU",
+          "birim": "adet",
+          "miktar": 1.4,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1715045819599",
+          "ad": "HAVANA CLUP 3 ANOS 70CL",
+          "barkod": "BRK1764898380",
+          "kategori": "ROMLAR GRUBU",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1767810342973",
+          "ad": "HAVANA CLUP SELECTİON 70CL",
+          "barkod": "BRK3749972307",
+          "kategori": "ROMLAR GRUBU",
+          "birim": "adet",
+          "miktar": 1.2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1748041587086",
+          "ad": "CAPTAİN MORGAN WHİTE 70CL",
+          "barkod": "BRK0142711177",
+          "kategori": "ROMLAR GRUBU",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 13
+        },
+        {
+          "id": "1796783896711",
+          "ad": "BACARDI 70CL",
+          "barkod": "BRK9491930382",
+          "kategori": "ROMLAR GRUBU",
+          "birim": "adet",
+          "miktar": 1.5,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1741300410291",
+          "ad": "PLAYA DOLUCA",
+          "barkod": "BRK2738425792",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1743057633282",
+          "ad": "MON REVE TEMPRANILLO SHIRAZ ROZE 75CL",
+          "barkod": "BRK5311949178",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1794927400894",
+          "ad": "WHISPERİNG ANGEL ROSE",
+          "barkod": "BRK8396281918",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1755731707643",
+          "ad": "MONTMEYRAC ROSE",
+          "barkod": "BRK4268075960",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 5
+        },
+        {
+          "id": "1734518022627",
+          "ad": "SUVLA BLUSH KARASAKIZ",
+          "barkod": "BRK7105565473",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 10
+        },
+        {
+          "id": "1753832984582",
+          "ad": "LAMBERTİ ROZE 75CL",
+          "barkod": "BRK2811333064",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 77
+        },
+        {
+          "id": "1771270393637",
+          "ad": "PORTA D.ROZE 75 CL",
+          "barkod": "BRK8571142075",
+          "kategori": "ROSE ŞARAP",
+          "birim": "adet",
+          "miktar": 6,
+          "kalanMiktar": 155
+        },
+        {
+          "id": "1748294376929",
+          "ad": "ŞAMPANYA CHANDON GARDEN SPRİTZ",
+          "barkod": "BRK4059356200",
+          "kategori": "ŞAMPANYA GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1791429393939",
+          "ad": "ŞARAP ARTHUR METZ RIESLING BYZ",
+          "barkod": "BRK1085569915",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1706895525272",
+          "ad": "ŞARAP PASCAL CHAPLIS BYZ",
+          "barkod": "BRK9432036443",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1779685540481",
+          "ad": "ŞARAP GUIDO MAZERELLO GAVİ BYZ",
+          "barkod": "BRK0271432741",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1735430793276",
+          "ad": "MON REVE VIOGNIER BEYAZ 75CL",
+          "barkod": "BRK1257893730",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1754429059083",
+          "ad": "MON REVE CHARDONAY CHENIN BLANC 75CL",
+          "barkod": "BRK2770662930",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 10
+        },
+        {
+          "id": "1727535068267",
+          "ad": "S EMIR SAUVIGNON KAPADOKYA",
+          "barkod": "BRK3378822159",
+          "kategori": "ŞARAP BYZ GRUP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1733196952662",
+          "ad": "ŞARAP LA CONSENSUS SHIRAZ C.S MERLOT KRM",
+          "barkod": "BRK4032906552",
+          "kategori": "ŞARAP KRM GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1708367289351",
+          "ad": "ŞARAP VİCTOR BERART BEAUJOLAIS KRM",
+          "barkod": "BRK1478596327",
+          "kategori": "ŞARAP KRM GRUP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1737974970002",
+          "ad": "ŞARAP PRUNOTTO BAROLO KRM",
+          "barkod": "BRK5488519809",
+          "kategori": "ŞARAP KRM GRUP",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1734278290542",
+          "ad": "ŞARAP AYDIN PRODOM ÖKÜZGÖZÜ",
+          "barkod": "BRK6541724340",
+          "kategori": "ŞARAP ÖKÜZGÖZÜ",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1780722423626",
+          "ad": "TEKİLA OLMEGA 70CL",
+          "barkod": "BRK3570513674",
+          "kategori": "TEQULİA GRUBU",
+          "birim": "adet",
+          "miktar": 1.5,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1766089962262",
+          "ad": "ABSOLUT 35 CL",
+          "barkod": "BRK4437859348",
+          "kategori": "VOTKALAR",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1718741976786",
+          "ad": "BELVEDERE VOTKA 70 CL",
+          "barkod": "BRK5079274265",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1752232922872",
+          "ad": "VOTKA ABSOLUT LİME 70CL",
+          "barkod": "BRK4199509644",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1740208586768",
+          "ad": "VOTKA BELLUGA NOBLE 70CL",
+          "barkod": "BRK6974301145",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1704595316671",
+          "ad": "VOTKA ABSOLUT ELXY 70CL",
+          "barkod": "BRK4638359095",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 3
+        },
+        {
+          "id": "1762086246518",
+          "ad": "VOTKA ABSOLUT 70CL",
+          "barkod": "BRK2754512768",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1.5,
+          "kalanMiktar": 4
+        },
+        {
+          "id": "1788744690741",
+          "ad": "VOTKA ABSOLUT 1 LT",
+          "barkod": "BRK5108415301",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1769843704442",
+          "ad": "VOTKA ABSOLUT RASBERRİ 70CL",
+          "barkod": "BRK1897653731",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1.35,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1720509326152",
+          "ad": "VOTKA SMİRNOF G.APPLE 70CL",
+          "barkod": "BRK5054756745",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1722231439721",
+          "ad": "SMIRNOFF 35CL",
+          "barkod": "BRK5233203652",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1754328204392",
+          "ad": "VODKA SKY 70CL",
+          "barkod": "BRK0703674111",
+          "kategori": "VOTKALAR GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1714782538822",
+          "ad": "WHISKY BENRİACH 70CL",
+          "barkod": "BRK2525717813",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.5,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1743259214005",
+          "ad": "WHISKY GLENLIVET 12 SINGLE 70CL",
+          "barkod": "BRK3758149425",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.4,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1709247950168",
+          "ad": "WHISKY JAMESON BLACK BARREL 70CL",
+          "barkod": "BRK9122867504",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0.7
+        },
+        {
+          "id": "1741527604875",
+          "ad": "WHISKY GLENMORAGE SIGNET 12Y 70CL",
+          "barkod": "BRK1989208421",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.35,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1747232103558",
+          "ad": "WHISKY GLENMORANGİE 70CL 10Y",
+          "barkod": "BRK8284767515",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1775711804869",
+          "ad": "WHISKY ARTBEG 5Y 70CL",
+          "barkod": "BRK6211105394",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1757026845615",
+          "ad": "WHISKY SİNGLE BARREL 70CL",
+          "barkod": "BRK7678662331",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1790407684038",
+          "ad": "WHISKY COAL İLA 12 Y 70CL",
+          "barkod": "BRK8410144934",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1724387252081",
+          "ad": "WHISKY GLENFIDDICH 70CL",
+          "barkod": "BRK5971631724",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1779274846351",
+          "ad": "WHISKY BLUE LABEL 70CL",
+          "barkod": "BRK4488755988",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1722985299494",
+          "ad": "WHISKY JACK DANIELS GENTLEMAN 70CL",
+          "barkod": "BRK6301934873",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.35,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1795015527706",
+          "ad": "WHISKY WHİSTLE PIG 70CL",
+          "barkod": "BRK2720201131",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1720502156703",
+          "ad": "WHISKY ROYAL SALUTE 21Y 70CL",
+          "barkod": "BRK2780468325",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1768081991925",
+          "ad": "WHISKY JACK DANIELS FIRE70CL",
+          "barkod": "BRK6400276835",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1769322541608",
+          "ad": "WHISKY CHIVAS REGAL 12Y 70CL",
+          "barkod": "BRK4420833574",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1.5,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1797020499431",
+          "ad": "WHISKY JACK DANIELS APPLE 70CL",
+          "barkod": "BRK9358853745",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 2
+        },
+        {
+          "id": "1738771845382",
+          "ad": "WHISKY BLACK LABEL 100CL",
+          "barkod": "BRK3933086397",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 7
+        },
+        {
+          "id": "1795708355000",
+          "ad": "WHISKY KAVALAN SINGLE MALT NO:1 70CL",
+          "barkod": "BRK6879188376",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1722276934712",
+          "ad": "WHISKY CHITA JAPANESE 70CL",
+          "barkod": "BRK5863901818",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1718601791488",
+          "ad": "WHISKY LAGAVULİN 70cl",
+          "barkod": "BRK9002663807",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1744806450320",
+          "ad": "WHISKY RED LABEL GREEN 70CL",
+          "barkod": "BRK5220824348",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1753960244483",
+          "ad": "WHISKY CHIVAS REGAL 18Y 70CL",
+          "barkod": "BRK4671530892",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1762064740830",
+          "ad": "WHISKY KAMIKI 50CL",
+          "barkod": "BRK1000387033",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1794161825372",
+          "ad": "WHISKY JW DOUBLE BLACK 70CL",
+          "barkod": "BRK3660474669",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1723678656119",
+          "ad": "JACK DANELS 35CL",
+          "barkod": "BRK4839427019",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1706370543492",
+          "ad": "WHISKY JIM BEAM 1LT",
+          "barkod": "BRK4475037162",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1733503037667",
+          "ad": "CHIVAS REGAL 12Y 35CL",
+          "barkod": "BRK7839341028",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 2,
+          "kalanMiktar": 1
+        },
+        {
+          "id": "1790890873420",
+          "ad": "DİMPLE GOLDEN SELEC 70CL",
+          "barkod": "BRK2986093540",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 0.6,
+          "kalanMiktar": 0
+        },
+        {
+          "id": "1742821911358",
+          "ad": "JACK DANIELS 100CL",
+          "barkod": "BRK7314547845",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 8
+        },
+        {
+          "id": "1732047866174",
+          "ad": "CHIVAS REGAL 12 Y.O 100CL",
+          "barkod": "BRK1488808193",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 9
+        },
+        {
+          "id": "1756762073833",
+          "ad": "JAMESON 100CL",
+          "barkod": "BRK8577239706",
+          "kategori": "WHISKY GRUBU",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        }
+      ],
+      "olusturmaTarihi": "2025-12-02T10:44:42.389Z"
+    }
+  ]
 }

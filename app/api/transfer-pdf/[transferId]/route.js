@@ -150,8 +150,8 @@ async function buildPdf(transfer) {
   const pageSize = [595.28, 841.89];
   let page = pdfDoc.addPage(pageSize);
   let cursorY = page.getHeight() - margin;
-  const columnHeaders = ['Ürün Adı', 'Barkod', 'Kategori', 'Teslim Edilen', 'Depoda Kalan'];
-  const columnWidths = [150, 95, 110, 80, 60];
+  const columnHeaders = ['Ürün Adı', 'Teslim Edilen', 'Depoda Kalan'];
+  const columnWidths = [260, 140, 140];
   const tableWidth = columnWidths.reduce((total, width) => total + width, 0);
   const columnPositions = columnWidths.reduce(
     (positions, width) => {
@@ -239,7 +239,10 @@ async function buildPdf(transfer) {
   };
 
   const drawColumnDividers = (topY, bottomY) => {
-    columnPositions.forEach((x) => {
+    columnPositions.forEach((x, index) => {
+      if (index === 0 || index === columnPositions.length - 1) {
+        return;
+      }
       page.drawLine({
         start: { x, y: topY },
         end: { x, y: bottomY },
@@ -275,8 +278,6 @@ async function buildPdf(transfer) {
     let currentX = margin;
     const rowValues = [
       urun.ad,
-      urun.barkod,
-      urun.kategori,
       formatAmount(urun.miktar, urun.birim),
       formatAmount(urun.kalanMiktar, urun.birim)
     ];

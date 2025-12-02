@@ -49,6 +49,18 @@ export default function HomePage() {
           </div>
 
           <div 
+            onClick={() => router.push('/transferler')}
+            className="bg-white rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow"
+          >
+            <h2 className="text-2xl font-semibold mb-4 text-indigo-600">
+              📜 Transfer Geçmişi
+            </h2>
+            <p className="text-gray-600">
+              Önceki transferleri inceleyin ve PDF çıktıları yeniden açın
+            </p>
+          </div>
+
+          <div 
             onClick={() => router.push('/stok-guncelle')}
             className="bg-white rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow"
           >
