@@ -1,3 +1,23 @@
 {
-  "transfers": []
+  "transfers": [
+    {
+      "id": "TR1764653662658",
+      "teslimEden": "Halil İbrahim Cerit",
+      "teslimAlan": "Ener Alikan",
+      "hedefKonum": "Bar",
+      "aciklama": "",
+      "urunler": [
+        {
+          "id": "1723589439321",
+          "ad": "SANCERRE BYZ",
+          "barkod": "BRK7834393785",
+          "kategori": "BEYAZ ŞARAP",
+          "birim": "adet",
+          "miktar": 1,
+          "kalanMiktar": 0
+        }
+      ],
+      "olusturmaTarihi": "2025-12-02T05:34:22.658Z"
+    }
+  ]
 }

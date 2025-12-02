@@ -5,17 +5,27 @@
       "ad": "SANCERRE BYZ",
       "barkod": "BRK7834393785",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
-      "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
+      "guncellemeTarihi": "2025-12-02T05:34:37.645Z",
+      "hareketler": [
+        {
+          "tur": "stok-artis",
+          "miktar": 1,
+          "oncekiMiktar": 0,
+          "yeniMiktar": 1,
+          "aciklama": "",
+          "tarih": "2025-12-02T05:34:37.645Z"
+        }
+      ]
     },
     {
       "id": "1716313854993",
       "ad": "KAYRA V. CHAR.  BYZ 75CL",
       "barkod": "BRK6251586642",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 5.0,
+      "miktar": 5,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -25,7 +35,7 @@
       "ad": "SUVLA CHARDONNAY",
       "barkod": "BRK2717017747",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 6.0,
+      "miktar": 6,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -35,7 +45,7 @@
       "ad": "KAYRA V. S.BLANCO BYZ",
       "barkod": "BRK3879083046",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -45,7 +55,7 @@
       "ad": "LAMBERTİ BYZ 75CL",
       "barkod": "BRK1869705932",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 143.0,
+      "miktar": 143,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -55,7 +65,7 @@
       "ad": "PORTA D. BYZ 75CL",
       "barkod": "BRK0090610709",
       "kategori": "BEYAZ ŞARAP",
-      "miktar": 179.0,
+      "miktar": 179,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -65,7 +75,7 @@
       "ad": "TUBORG GOLD 50CL",
       "barkod": "BRK7253331067",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -75,7 +85,7 @@
       "ad": "CARLSBERG 33 CL",
       "barkod": "BRK1559304381",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -85,7 +95,7 @@
       "ad": "EFES 50 CL",
       "barkod": "BRK8891251534",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -95,7 +105,7 @@
       "ad": "HEİNEKEN",
       "barkod": "BRK7643824436",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -105,7 +115,7 @@
       "ad": "BECK'S",
       "barkod": "BRK0796878276",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -115,7 +125,7 @@
       "ad": "ERDİNGER",
       "barkod": "BRK9509086706",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -125,7 +135,7 @@
       "ad": "BOMONTİ FİLİTRESİZ 50 CL",
       "barkod": "BRK1911309082",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -135,7 +145,7 @@
       "ad": "EFES MALT",
       "barkod": "BRK2094990480",
       "kategori": "BİRALAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -145,7 +155,7 @@
       "ad": "GIN MARE 70CL",
       "barkod": "BRK8953048395",
       "kategori": "CİNLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -155,7 +165,7 @@
       "ad": "GORDON GIN PINK 70CL",
       "barkod": "BRK6867635881",
       "kategori": "CİNLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -165,7 +175,7 @@
       "ad": "CİN HENDRİCKS 70CL",
       "barkod": "BRK9497749477",
       "kategori": "CİNLER GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -185,7 +195,7 @@
       "ad": "CİN MALF GIN ROSA 70CL",
       "barkod": "BRK1664044745",
       "kategori": "CİNLER GRUBU",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -195,7 +205,7 @@
       "ad": "CİN MONKEY47 SCHWRZL 50CL",
       "barkod": "BRK4457723056",
       "kategori": "CİNLER GRUBU",
-      "miktar": 6.0,
+      "miktar": 6,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -235,7 +245,7 @@
       "ad": "CİN TANGUERAY TEN 70CL",
       "barkod": "BRK5443662795",
       "kategori": "CİNLER GRUBU",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -245,7 +255,7 @@
       "ad": "HENNSY X.O 70CL",
       "barkod": "BRK2884430673",
       "kategori": "COGNAC GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -265,7 +275,7 @@
       "ad": "DEPOZİTO TUBORG KASA",
       "barkod": "BRK1781364805",
       "kategori": "DEPOZİTOLAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -275,7 +285,7 @@
       "ad": "DEPOZİTO 300ML BOŞ KOMPLE",
       "barkod": "BRK9209127728",
       "kategori": "DEPOZİTOLAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -285,7 +295,7 @@
       "ad": "DEPOZİTO TUBORG ŞİŞE",
       "barkod": "BRK5582716988",
       "kategori": "DEPOZİTOLAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -295,7 +305,7 @@
       "ad": "SU DAMACANA 19LT",
       "barkod": "BRK4854182321",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -305,7 +315,7 @@
       "ad": "ÇAY 30GR POŞET",
       "barkod": "BRK6406009973",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -315,7 +325,7 @@
       "ad": "MEYVE SUYU PORTAKAL 1LT",
       "barkod": "BRK5866323229",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -325,7 +335,7 @@
       "ad": "SPRİTE PET 1LT",
       "barkod": "BRK7661526128",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -335,7 +345,7 @@
       "ad": "MEYVE SUYU ELMA 1LT",
       "barkod": "BRK7145236556",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -345,7 +355,7 @@
       "ad": "MEYVE SUYU VİŞNE 1 LT",
       "barkod": "BRK8813896276",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -355,7 +365,7 @@
       "ad": "MEYVE SUYU ANANAS 1LT",
       "barkod": "BRK6884534318",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -365,7 +375,7 @@
       "ad": "COLA PET 1 LT",
       "barkod": "BRK6777123421",
       "kategori": "İÇECEKLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -375,7 +385,7 @@
       "ad": "PRODOM KIRMIZI ŞİŞE",
       "barkod": "BRK5864078957",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -385,7 +395,7 @@
       "ad": "MALBEC TERRAZOS 75CL",
       "barkod": "BRK4810633755",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -395,7 +405,7 @@
       "ad": "ASTİCUS MONS CAMLİJA",
       "barkod": "BRK1868549411",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 5.0,
+      "miktar": 5,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -405,7 +415,7 @@
       "ad": "NEVİ ŞAHSINA MÜNASIR",
       "barkod": "BRK1816617496",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -415,7 +425,7 @@
       "ad": "SARAFIN CAB.SAUV.KRM",
       "barkod": "BRK4773866446",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -425,7 +435,7 @@
       "ad": "K.D PENDORE SYRAH KRM",
       "barkod": "BRK0676901630",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -435,7 +445,7 @@
       "ad": "LİKYA VİNEYARDS KRM",
       "barkod": "BRK7002869347",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -445,7 +455,7 @@
       "ad": "KAYRA V.MERLOT KRM",
       "barkod": "BRK4161592005",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -455,7 +465,7 @@
       "ad": "K.D COTES D AVANOS KRM",
       "barkod": "BRK6345308042",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -465,7 +475,7 @@
       "ad": "M.PORTA CAELİ AMENT KRM",
       "barkod": "BRK2949541816",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 9.0,
+      "miktar": 9,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -475,7 +485,7 @@
       "ad": "KAYRA V.CAB.SAUV. KRM",
       "barkod": "BRK8444029731",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 13.0,
+      "miktar": 13,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -485,7 +495,7 @@
       "ad": "KAYRA ÖKÜZGÖZÜ",
       "barkod": "BRK2689125492",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 19.0,
+      "miktar": 19,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -495,7 +505,7 @@
       "ad": "PORTA D. KRM 75CL",
       "barkod": "BRK5097061141",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 110.0,
+      "miktar": 110,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -505,7 +515,7 @@
       "ad": "LAMBERTİ KRM 75CL",
       "barkod": "BRK2083480208",
       "kategori": "KIRMIZI ŞARAP",
-      "miktar": 269.0,
+      "miktar": 269,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -525,7 +535,7 @@
       "ad": "LİKÖR LİMENCELLO 1 LT",
       "barkod": "BRK1839979722",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -545,7 +555,7 @@
       "ad": "LİKÖR APEROL 1 LT",
       "barkod": "BRK1795557182",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 14.0,
+      "miktar": 14,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -565,7 +575,7 @@
       "ad": "LİKÖR CHAMBORD 50CL",
       "barkod": "BRK1470761453",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 6.0,
+      "miktar": 6,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -605,7 +615,7 @@
       "ad": "LİKÖR FERNET BRANCA 70CL",
       "barkod": "BRK1070775899",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -625,7 +635,7 @@
       "ad": "LİKÖR KAHLUA 70CL",
       "barkod": "BRK0781416131",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -645,7 +655,7 @@
       "ad": "LİKÖR SAFARİ 70CL",
       "barkod": "BRK5686266654",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -665,7 +675,7 @@
       "ad": "LIMONCELLO 100CL",
       "barkod": "BRK8555607409",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -675,7 +685,7 @@
       "ad": "LİKÖR SOUTHERN CONFORT",
       "barkod": "BRK2308553369",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -685,7 +695,7 @@
       "ad": "LİKÖR GRAPPA 70CL",
       "barkod": "BRK8753382601",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -695,7 +705,7 @@
       "ad": "ŞARAP LILLET BLANC BYZ",
       "barkod": "BRK7942316764",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -715,7 +725,7 @@
       "ad": "LİKÖR CAMPARİ 70CL",
       "barkod": "BRK3121300586",
       "kategori": "LİKÖRLER GRUBU",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -735,7 +745,7 @@
       "ad": "RUFFINO",
       "barkod": "BRK2270736091",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -745,7 +755,7 @@
       "ad": "DOM PERIGNON",
       "barkod": "BRK3758150652",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -755,7 +765,7 @@
       "ad": "RUFFINO ROZE",
       "barkod": "BRK4462199673",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -765,7 +775,7 @@
       "ad": "MOETCHANDOM ROSE İMP.",
       "barkod": "BRK5342871012",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -775,7 +785,7 @@
       "ad": "MOET&CHANDON BRUT IMP.",
       "barkod": "BRK5775347333",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -785,7 +795,7 @@
       "ad": "MOET&CHANDON İCE İMP.",
       "barkod": "BRK9054715180",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -795,7 +805,7 @@
       "ad": "MOET&CHANDOM ICE ROSE",
       "barkod": "BRK4559002191",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 19.0,
+      "miktar": 19,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -805,7 +815,7 @@
       "ad": "TALLERO KÖPÜKLÜ 75 CL",
       "barkod": "BRK1149275550",
       "kategori": "PROSECCO VE ŞAMPANYA",
-      "miktar": 583.0,
+      "miktar": 583,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -815,7 +825,7 @@
       "ad": "RAKI BEYLERBEYİ İNCİRDEN  70CL",
       "barkod": "BRK6451237242",
       "kategori": "RAKILAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -825,7 +835,7 @@
       "ad": "YENİ RAKI 35 CL",
       "barkod": "BRK8175484978",
       "kategori": "RAKILAR",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -835,7 +845,7 @@
       "ad": "TEKİRDAĞ ALTIN SERİ 70CL",
       "barkod": "BRK2453026630",
       "kategori": "RAKILAR",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -845,7 +855,7 @@
       "ad": "RAKI MERCAN 70CL",
       "barkod": "BRK9173831767",
       "kategori": "RAKILAR",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -855,7 +865,7 @@
       "ad": "TEKİRDAĞ ALTIN SERİ 50CL",
       "barkod": "BRK7597953640",
       "kategori": "RAKILAR",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -865,7 +875,7 @@
       "ad": "YENI RAKI 70 CL",
       "barkod": "BRK2513305399",
       "kategori": "RAKILAR",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -875,7 +885,7 @@
       "ad": "BEYLERBEYİ GÖBEK 35CL",
       "barkod": "BRK8600696575",
       "kategori": "RAKILAR",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -885,7 +895,7 @@
       "ad": "TEKİRDAĞ ALTINSERİ 35 CL",
       "barkod": "BRK3348407369",
       "kategori": "RAKILAR",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -895,7 +905,7 @@
       "ad": "BEYLERBEYİ GÖBEK 70 CL",
       "barkod": "BRK7780113139",
       "kategori": "RAKILAR",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -915,7 +925,7 @@
       "ad": "HAVANA CLUP 3 ANOS 70CL",
       "barkod": "BRK1764898380",
       "kategori": "ROMLAR GRUBU",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -935,7 +945,7 @@
       "ad": "CAPTAİN MORGAN WHİTE 70CL",
       "barkod": "BRK0142711177",
       "kategori": "ROMLAR GRUBU",
-      "miktar": 15.0,
+      "miktar": 15,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -955,7 +965,7 @@
       "ad": "ROM BUMBU 70CL",
       "barkod": "BRK8304883427",
       "kategori": "ROMLAR GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -965,7 +975,7 @@
       "ad": "PLAYA DOLUCA",
       "barkod": "BRK2738425792",
       "kategori": "ROSE ŞARAP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -975,7 +985,7 @@
       "ad": "MON REVE TEMPRANILLO SHIRAZ ROZE 75CL",
       "barkod": "BRK5311949178",
       "kategori": "ROSE ŞARAP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -985,7 +995,7 @@
       "ad": "WHISPERİNG ANGEL ROSE",
       "barkod": "BRK8396281918",
       "kategori": "ROSE ŞARAP",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -995,7 +1005,7 @@
       "ad": "MONTMEYRAC ROSE",
       "barkod": "BRK4268075960",
       "kategori": "ROSE ŞARAP",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1005,7 +1015,7 @@
       "ad": "SUVLA BLUSH KARASAKIZ",
       "barkod": "BRK7105565473",
       "kategori": "ROSE ŞARAP",
-      "miktar": 12.0,
+      "miktar": 12,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1015,7 +1025,7 @@
       "ad": "LAMBERTİ ROZE 75CL",
       "barkod": "BRK2811333064",
       "kategori": "ROSE ŞARAP",
-      "miktar": 83.0,
+      "miktar": 83,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1025,7 +1035,7 @@
       "ad": "PORTA D.ROZE 75 CL",
       "barkod": "BRK8571142075",
       "kategori": "ROSE ŞARAP",
-      "miktar": 161.0,
+      "miktar": 161,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1035,7 +1045,7 @@
       "ad": "BLACK LABEL 35CL",
       "barkod": "BRK8805141888",
       "kategori": "SCOTCH WHİSKY",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1045,7 +1055,7 @@
       "ad": "TONİC WATER",
       "barkod": "BRK7094200419",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1055,7 +1065,7 @@
       "ad": "SPRITE",
       "barkod": "BRK9999525849",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1065,7 +1075,7 @@
       "ad": "FANTA",
       "barkod": "BRK2664746382",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1075,7 +1085,7 @@
       "ad": "COLA ZERO",
       "barkod": "BRK7355015996",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1085,7 +1095,7 @@
       "ad": "MINERAL SADE SODA",
       "barkod": "BRK5893714859",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1095,7 +1105,7 @@
       "ad": "REDBULL",
       "barkod": "BRK5557384799",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1105,7 +1115,7 @@
       "ad": "FUSE TEA",
       "barkod": "BRK9188622220",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1115,7 +1125,7 @@
       "ad": "COCA COLA",
       "barkod": "BRK2565890131",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1125,7 +1135,7 @@
       "ad": "KÜÇÜK SU",
       "barkod": "BRK6803021101",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1135,7 +1145,7 @@
       "ad": "BÜYÜK SU",
       "barkod": "BRK0628122683",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1145,7 +1155,7 @@
       "ad": "TONIC ZERO 1LT",
       "barkod": "BRK6558736224",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1155,7 +1165,7 @@
       "ad": "MEYVE SUYU EKŞİ ELMA 1LT",
       "barkod": "BRK1473139712",
       "kategori": "SOFT DRINKS",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1165,7 +1175,7 @@
       "ad": "SÜT LAKTOZSUZ 1LT",
       "barkod": "BRK3672890696",
       "kategori": "SÜT ÜRÜNLERİ",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1175,7 +1185,7 @@
       "ad": "SÜT YAĞLI 1LT",
       "barkod": "BRK9148082819",
       "kategori": "SÜT ÜRÜNLERİ",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1185,7 +1195,7 @@
       "ad": "ŞAMPANYA CHANDON GARDEN SPRİTZ",
       "barkod": "BRK4059356200",
       "kategori": "ŞAMPANYA GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1195,7 +1205,7 @@
       "ad": "MOET&CHANDON N.I.R NECTAR",
       "barkod": "BRK3439070632",
       "kategori": "ŞAMPANYA GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1205,7 +1215,7 @@
       "ad": "ARMAND DE BRICNAC BRUT 70CL",
       "barkod": "BRK7132726298",
       "kategori": "ŞAMPANYA GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1215,7 +1225,7 @@
       "ad": "ŞARAP K.D MİSKET BYZ",
       "barkod": "BRK7783014597",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1225,7 +1235,7 @@
       "ad": "ŞARAP ARTHUR METZ RIESLING BYZ",
       "barkod": "BRK1085569915",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1235,7 +1245,7 @@
       "ad": "ŞARAP PASCAL CHAPLIS BYZ",
       "barkod": "BRK9432036443",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1245,7 +1255,7 @@
       "ad": "ŞARAP GUIDO MAZERELLO GAVİ BYZ",
       "barkod": "BRK0271432741",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1255,7 +1265,7 @@
       "ad": "MON REVE VIOGNIER BEYAZ 75CL",
       "barkod": "BRK1257893730",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 7.0,
+      "miktar": 7,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1265,7 +1275,7 @@
       "ad": "MON REVE CHARDONAY CHENIN BLANC 75CL",
       "barkod": "BRK2770662930",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 6.0,
+      "miktar": 6,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1275,7 +1285,7 @@
       "ad": "S EMIR SAUVIGNON KAPADOKYA",
       "barkod": "BRK3378822159",
       "kategori": "ŞARAP BYZ GRUP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1285,7 +1295,7 @@
       "ad": "ŞARAP LA CONSENSUS SHIRAZ C.S MERLOT KRM",
       "barkod": "BRK4032906552",
       "kategori": "ŞARAP KRM GRUP",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1295,7 +1305,7 @@
       "ad": "ŞARAP VİCTOR BERART BEAUJOLAIS KRM",
       "barkod": "BRK1478596327",
       "kategori": "ŞARAP KRM GRUP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1305,7 +1315,7 @@
       "ad": "ŞARAP PRUNOTTO BAROLO KRM",
       "barkod": "BRK5488519809",
       "kategori": "ŞARAP KRM GRUP",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1315,7 +1325,7 @@
       "ad": "ŞARAP AYDIN PRODOM ÖKÜZGÖZÜ",
       "barkod": "BRK6541724340",
       "kategori": "ŞARAP ÖKÜZGÖZÜ",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1325,7 +1335,7 @@
       "ad": "FO MANGO MEYVELİ SOS KG",
       "barkod": "BRK6469824620",
       "kategori": "ŞURUP GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1335,7 +1345,7 @@
       "ad": "FO MEYVE PÜRESİ ÇİLEK",
       "barkod": "BRK4292168653",
       "kategori": "ŞURUP GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1345,7 +1355,7 @@
       "ad": "TEKİLA PATRON SİLVER 70CL",
       "barkod": "BRK8562241472",
       "kategori": "TEQULİA GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1365,7 +1375,7 @@
       "ad": "MARTİNİ EXTRA DRY 75CL",
       "barkod": "BRK8074160038",
       "kategori": "VERMUTLAR GRUBU",
-      "miktar": 6.0,
+      "miktar": 6,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1375,7 +1385,7 @@
       "ad": "MARTİNİ BİANCO 75CL",
       "barkod": "BRK7651919319",
       "kategori": "VERMUTLAR GRUBU",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1395,7 +1405,7 @@
       "ad": "ABSOLUT 35 CL",
       "barkod": "BRK4437859348",
       "kategori": "VOTKALAR",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1415,7 +1425,7 @@
       "ad": "VOTKA ABSOLUT LİME 70CL",
       "barkod": "BRK4199509644",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1425,7 +1435,7 @@
       "ad": "VOTKA BELLUGA NOBLE 70CL",
       "barkod": "BRK6974301145",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1435,7 +1445,7 @@
       "ad": "VOTKA ABSOLUT ELXY 70CL",
       "barkod": "BRK4638359095",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 4.0,
+      "miktar": 4,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1455,7 +1465,7 @@
       "ad": "VOTKA ABSOLUT 1 LT",
       "barkod": "BRK5108415301",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1475,7 +1485,7 @@
       "ad": "VOTKA SMİRNOF G.APPLE 70CL",
       "barkod": "BRK5054756745",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1485,7 +1495,7 @@
       "ad": "SMIRNOFF 100CL",
       "barkod": "BRK2574031358",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1495,7 +1505,7 @@
       "ad": "SMIRNOFF 35CL",
       "barkod": "BRK5233203652",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1505,7 +1515,7 @@
       "ad": "VODKA SKY 70CL",
       "barkod": "BRK0703674111",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1515,7 +1525,7 @@
       "ad": "BELVEDERE 300CL",
       "barkod": "BRK8709308660",
       "kategori": "VOTKALAR GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1575,7 +1585,7 @@
       "ad": "WHISKY ARTBEG 5Y 70CL",
       "barkod": "BRK6211105394",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1585,7 +1595,7 @@
       "ad": "WHISKY SİNGLE BARREL 70CL",
       "barkod": "BRK7678662331",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1595,7 +1605,7 @@
       "ad": "WHISKY TALİSKER 70CL",
       "barkod": "BRK8079945487",
       "kategori": "WHISKY GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1605,7 +1615,7 @@
       "ad": "WHISKY COAL İLA 12 Y 70CL",
       "barkod": "BRK8410144934",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1615,7 +1625,7 @@
       "ad": "WHISKY GLENFIDDICH 70CL",
       "barkod": "BRK5971631724",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1625,7 +1635,7 @@
       "ad": "WHISKY BLUE LABEL 70CL",
       "barkod": "BRK4488755988",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1645,7 +1655,7 @@
       "ad": "WHISKY WHİSTLE PIG 70CL",
       "barkod": "BRK2720201131",
       "kategori": "WHISKY GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1655,7 +1665,7 @@
       "ad": "WHISKY ROYAL SALUTE 21Y 70CL",
       "barkod": "BRK2780468325",
       "kategori": "WHISKY GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1665,7 +1675,7 @@
       "ad": "WHISKY JACK DANIELS FIRE70CL",
       "barkod": "BRK6400276835",
       "kategori": "WHISKY GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1685,7 +1695,7 @@
       "ad": "WHISKY JACK DANIELS APPLE 70CL",
       "barkod": "BRK9358853745",
       "kategori": "WHISKY GRUBU",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1695,7 +1705,7 @@
       "ad": "WHISKY JIM BEAM WHITE 70CL",
       "barkod": "BRK1909856350",
       "kategori": "WHISKY GRUBU",
-      "miktar": 5.0,
+      "miktar": 5,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1705,7 +1715,7 @@
       "ad": "WHISKY BLACK LABEL 100CL",
       "barkod": "BRK3933086397",
       "kategori": "WHISKY GRUBU",
-      "miktar": 8.0,
+      "miktar": 8,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1755,7 +1765,7 @@
       "ad": "WHISKY CHIVAS REGAL 18Y 70CL",
       "barkod": "BRK4671530892",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1765,7 +1775,7 @@
       "ad": "WHISKY BALLANTİNES 70CL",
       "barkod": "BRK8445745835",
       "kategori": "WHISKY GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1775,7 +1785,7 @@
       "ad": "WHISKY KAMIKI 50CL",
       "barkod": "BRK1000387033",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1785,7 +1795,7 @@
       "ad": "WHISKY JW DOUBLE BLACK 70CL",
       "barkod": "BRK3660474669",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1795,7 +1805,7 @@
       "ad": "WHISKY JACK DANIELS HONEY 70CL",
       "barkod": "BRK8108150502",
       "kategori": "WHISKY GRUBU",
-      "miktar": 2.0,
+      "miktar": 2,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1805,7 +1815,7 @@
       "ad": "JACK DANELS 35CL",
       "barkod": "BRK4839427019",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1815,7 +1825,7 @@
       "ad": "WHISKY JIM BEAM 1LT",
       "barkod": "BRK4475037162",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1825,7 +1835,7 @@
       "ad": "CHIVAS REGAL 12Y 35CL",
       "barkod": "BRK7839341028",
       "kategori": "WHISKY GRUBU",
-      "miktar": 3.0,
+      "miktar": 3,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1845,7 +1855,7 @@
       "ad": "JACK DANIELS 100CL",
       "barkod": "BRK7314547845",
       "kategori": "WHISKY GRUBU",
-      "miktar": 9.0,
+      "miktar": 9,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1855,7 +1865,7 @@
       "ad": "CHIVAS REGAL 12 Y.O 100CL",
       "barkod": "BRK1488808193",
       "kategori": "WHISKY GRUBU",
-      "miktar": 10.0,
+      "miktar": 10,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1865,7 +1875,7 @@
       "ad": "GLENLIVET 18Y 70CL",
       "barkod": "BRK8145986375",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1875,7 +1885,7 @@
       "ad": "JEAM BEAM 100CL",
       "barkod": "BRK7945603343",
       "kategori": "WHISKY GRUBU",
-      "miktar": 0.0,
+      "miktar": 0,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1885,7 +1895,7 @@
       "ad": "BUSHMILLS 35CL",
       "barkod": "BRK3328383957",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
@@ -1895,7 +1905,7 @@
       "ad": "JAMESON 100CL",
       "barkod": "BRK8577239706",
       "kategori": "WHISKY GRUBU",
-      "miktar": 1.0,
+      "miktar": 1,
       "birim": "adet",
       "olusturmaTarihi": "2025-12-01T19:45:33.522Z",
       "guncellemeTarihi": "2025-12-01T19:45:33.522Z"
