@@ -1,16 +1,3 @@
 {
-  "hareketler": [
-    {
-      "tur": "stok-artis",
-      "miktar": 1,
-      "oncekiMiktar": 0,
-      "yeniMiktar": 1,
-      "aciklama": "",
-      "tarih": "2025-12-02T05:34:37.645Z",
-      "urunId": "1723589439321",
-      "barkod": "BRK7834393785",
-      "ad": "SANCERRE BYZ",
-      "kategori": "BEYAZ ŞARAP"
-    }
-  ]
+  "hareketler": []
 }
