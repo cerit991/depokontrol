@@ -39,7 +39,16 @@ export default function UrunlerPage() {
   });
 
   const formatTarih = (tarih) => {
-    return new Date(tarih).toLocaleDateString('tr-TR', {
+    if (!tarih) {
+      return '-';
+    }
+
+    const tarihObjesi = new Date(tarih);
+    if (Number.isNaN(tarihObjesi.getTime())) {
+      return '-';
+    }
+
+    return tarihObjesi.toLocaleDateString('tr-TR', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -109,41 +118,65 @@ export default function UrunlerPage() {
           </div>
         ) : (
           <>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden mb-4">
-              <div className="px-4 py-3 bg-gray-50 border-b">
-                <p className="text-gray-700 font-semibold">
-                  Toplam {filtrelenmisUrunler.length} ürün listeleniyor
-                </p>
+            <div className="bg-white rounded-lg shadow-lg">
+              <div className="px-4 py-3 bg-gray-50 border-b flex items-center justify-between text-sm text-gray-600">
+                <span>Toplam {filtrelenmisUrunler.length} ürün listeleniyor</span>
+                <span>Kayıtlar Excel benzeri tablo görünümünde sıralanır</span>
               </div>
-            </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {filtrelenmisUrunler.map((urun) => (
-                <div key={urun.id} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
-                  <div className="flex justify-between items-start mb-4">
-                    <h3 className="text-xl font-bold text-gray-800">{urun.ad}</h3>
-                    <span className="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">
-                      {urun.kategori}
-                    </span>
-                  </div>
+              <div className="overflow-x-auto">
+                <table className="min-w-full border-collapse">
+                  <thead className="bg-gray-100 text-gray-700 text-xs uppercase tracking-wide">
+                    <tr>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">#</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Ürün Adı</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Kategori</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Barkod</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-right">Miktar</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Birim</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Eklenme Tarihi</th>
+                      <th className="border-b border-gray-200 px-4 py-3 text-left">Son Güncelleme</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-sm text-gray-800">
+                    {filtrelenmisUrunler.map((urun, index) => {
+                      const formatliMiktar = Number(urun.miktar ?? 0).toLocaleString('tr-TR', {
+                        minimumFractionDigits: 0,
+                        maximumFractionDigits: 2
+                      });
 
-                  {urun.barkod && (
-                    <p className="text-sm text-gray-600 mb-2">
-                      <span className="font-semibold">Barkod:</span> {urun.barkod}
-                    </p>
-                  )}
-
-                  <div className="space-y-2 mb-4">
-                    <p className="text-gray-700">
-                      <span className="font-semibold">Miktar:</span> {urun.miktar} {urun.birim}
-                    </p>
-                  </div>
-
-                  <div className="text-xs text-gray-500">
-                    <p>Eklenme: {formatTarih(urun.olusturmaTarihi)}</p>
-                  </div>
-                </div>
-              ))}
+                      return (
+                        <tr key={urun.id} className={index % 2 === 1 ? 'bg-gray-50' : ''}>
+                          <td className="border-b border-gray-200 px-4 py-3 text-left text-xs text-gray-500">
+                            {index + 1}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 font-semibold">
+                            {urun.ad}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-gray-600">
+                            {urun.kategori}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-gray-600">
+                            {urun.barkod || '-'}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-right font-mono">
+                            {formatliMiktar}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-gray-600">
+                            {urun.birim || 'adet'}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-gray-500 whitespace-nowrap">
+                            {formatTarih(urun.olusturmaTarihi)}
+                          </td>
+                          <td className="border-b border-gray-200 px-4 py-3 text-gray-500 whitespace-nowrap">
+                            {formatTarih(urun.guncellemeTarihi || urun.olusturmaTarihi)}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </>
         )}

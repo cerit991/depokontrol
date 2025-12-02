@@ -146,7 +146,16 @@ export default function TransferPage() {
   };
 
   const formatTarih = (tarih) => {
-    return new Date(tarih).toLocaleDateString('tr-TR', {
+    if (!tarih) {
+      return '-';
+    }
+
+    const tarihObj = new Date(tarih);
+    if (Number.isNaN(tarihObj.getTime())) {
+      return '-';
+    }
+
+    return tarihObj.toLocaleDateString('tr-TR', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',
@@ -169,6 +178,16 @@ export default function TransferPage() {
     };
     return sayi.toLocaleString('tr-TR', options);
   };
+
+  const aramaIfadesi = normalizeText(arama);
+  const filtrelenmisUrunler = urunler.filter((urun) => {
+    if (!aramaIfadesi) {
+      return true;
+    }
+    const alanlar = [urun.ad, urun.barkod, urun.kategori];
+    return alanlar.some((alan) => normalizeText(alan).includes(aramaIfadesi));
+  });
+  const aramaAktif = Boolean(aramaIfadesi);
 
   return (
     <div className="min-h-screen bg-gray-100 py-8">
@@ -266,81 +285,97 @@ export default function TransferPage() {
 
                 {urunler.length === 0 ? (
                   <p className="text-gray-500">Depoda listelenecek ürün bulunamadı.</p>
+                ) : filtrelenmisUrunler.length === 0 ? (
+                  <p className="text-gray-500">
+                    {aramaAktif ? 'Arama kriterlerine uygun ürün bulunamadı.' : 'Listelenecek ürün bulunamadı.'}
+                  </p>
                 ) : (
-                  urunler
-                    .filter((urun) => {
-                      if (!arama) {
-                        return true;
-                      }
-                      const aramaMetni = normalizeText(arama);
-                      if (!aramaMetni) {
-                        return true;
-                      }
-                      const alanlar = [urun.ad, urun.barkod, urun.kategori];
-                      return alanlar.some((alan) =>
-                        normalizeText(alan).includes(aramaMetni)
-                      );
-                    })
-                    .map((urun) => {
-                      const girilenMiktar = Number(miktarHaritasi[urun.id] ?? 0);
-                      const kalanMiktar = Math.max(0, Number(urun.miktar ?? 0) - girilenMiktar);
-                      const secildi = girilenMiktar > 0;
-                      return (
-                        <div
-                          key={urun.id}
-                          className={`border rounded-lg p-4 transition-all ${
-                            secildi
-                              ? 'border-blue-400 bg-blue-50 shadow-lg shadow-blue-100'
-                              : 'border-gray-200 bg-white shadow-sm'
-                          }`}
-                        >
-                          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-                            <div>
-                              <h3 className="text-lg font-semibold text-gray-800 flex items-center gap-2">
-                                {urun.ad}
-                                {secildi && (
-                                  <span className="inline-flex items-center rounded-full bg-blue-600 px-2.5 py-0.5 text-xs font-semibold text-white">
-                                    Seçildi
-                                  </span>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full border-collapse text-sm text-gray-800">
+                      <thead className="bg-gray-100 text-xs uppercase tracking-wide text-gray-600">
+                        <tr>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">#</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">Ürün Adı</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">Kategori</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">Barkod</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-right">Depodaki Miktar</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-right">Gönderilecek</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-right">Transfer Sonrası</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">Birim</th>
+                          <th className="border-b border-gray-200 px-3 py-3 text-left">Özet</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {filtrelenmisUrunler.map((urun, index) => {
+                          const girilenMiktar = Number(miktarHaritasi[urun.id] ?? 0);
+                          const kalanMiktar = Math.max(0, Number(urun.miktar ?? 0) - girilenMiktar);
+                          const secildi = girilenMiktar > 0;
+                          const satirStil = secildi
+                            ? 'bg-blue-50'
+                            : index % 2 === 1
+                              ? 'bg-gray-50'
+                              : '';
+
+                          return (
+                            <tr key={urun.id} className={`${satirStil} transition-colors`}>
+                              <td className="border-b border-gray-200 px-3 py-3 text-xs text-gray-500">{index + 1}</td>
+                              <td className="border-b border-gray-200 px-3 py-3 font-semibold text-gray-900">
+                                <div className="flex items-center gap-2">
+                                  {urun.ad}
+                                  {secildi && (
+                                    <span className="inline-flex items-center rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-semibold text-white">
+                                      Seçildi
+                                    </span>
+                                  )}
+                                </div>
+                              </td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-gray-600">{urun.kategori}</td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-gray-600">{urun.barkod || '-'}</td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-right font-mono text-gray-800">
+                                {formatMiktar(urun.miktar)}
+                              </td>
+                              <td className="border-b border-gray-200 px-3 py-2 text-right">
+                                <div className="flex items-center justify-end gap-2">
+                                  <input
+                                    type="number"
+                                    min="0"
+                                    max={urun.miktar}
+                                    value={miktarHaritasi[urun.id] ?? ''}
+                                    onChange={(e) => handleMiktarDegisim(urun.id, urun.miktar, e.target.value)}
+                                    className="w-24 px-2 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-right"
+                                    placeholder="0"
+                                  />
+                                  <span className="text-xs text-gray-500">{urun.birim}</span>
+                                </div>
+                              </td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-right font-mono text-gray-800">
+                                {formatMiktar(kalanMiktar)}
+                              </td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-gray-600">{urun.birim || 'adet'}</td>
+                              <td className="border-b border-gray-200 px-3 py-3 text-left">
+                                {secildi ? (
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      setSabitOzet(true);
+                                      if (ozetRef.current) {
+                                        ozetRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                                      }
+                                    }}
+                                    className="text-xs font-semibold text-blue-600 hover:text-blue-800"
+                                  >
+                                    Özete git
+                                  </button>
+                                ) : (
+                                  <span className="text-xs text-gray-400">-</span>
                                 )}
-                              </h3>
-                              <p className="text-sm text-gray-500">Kategori: {urun.kategori}</p>
-                              <p className="text-sm text-gray-500">Barkod: {urun.barkod}</p>
-                              <p className="text-sm text-gray-500">Depodaki Miktar: {formatMiktar(urun.miktar)} {urun.birim}</p>
-                              <p className="text-sm text-gray-500">Transfer sonrası depoda kalacak: {formatMiktar(kalanMiktar)} {urun.birim}</p>
-                            </div>
-                            <div className="flex items-center gap-2">
-                              <input
-                                type="number"
-                                min="0"
-                                max={urun.miktar}
-                                value={miktarHaritasi[urun.id] ?? ''}
-                                onChange={(e) => handleMiktarDegisim(urun.id, urun.miktar, e.target.value)}
-                                className="w-32 px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                                placeholder="0"
-                              />
-                              <span className="text-sm text-gray-600">{urun.birim}</span>
-                            </div>
-                          </div>
-                          {secildi && (
-                            <div className="mt-3">
-                              <button
-                                type="button"
-                                onClick={() => {
-                                  setSabitOzet(true);
-                                  if (ozetRef.current) {
-                                    ozetRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                                  }
-                                }}
-                                className="text-xs font-semibold text-blue-600 hover:text-blue-800"
-                              >
-                                Özete git ↑
-                              </button>
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
                 )}
               </div>
             </div>
@@ -388,22 +423,50 @@ export default function TransferPage() {
 
                   <div>
                     <h3 className="text-lg font-semibold text-gray-700 mb-2">Seçilen Ürünler</h3>
-                    <ul className="text-sm text-gray-600 space-y-2">
-                      {secilenUrunler.map((urun) => {
-                        const kalan = Math.max(
-                          0,
-                          Number(urun.miktar ?? 0) - Number(urun.transferMiktari ?? 0)
-                        );
-                        return (
-                          <li key={urun.id} className="border border-gray-200 rounded-lg p-3">
-                            <p className="font-semibold text-gray-800">{urun.ad}</p>
-                            <p>Barkod: {urun.barkod}</p>
-                            <p>Gönderilecek: {formatMiktar(urun.transferMiktari)} {urun.birim}</p>
-                            <p>Transfer sonrası depoda kalacak: {formatMiktar(kalan)} {urun.birim}</p>
-                          </li>
-                        );
-                      })}
-                    </ul>
+                    <div className="overflow-x-auto">
+                      <table className="min-w-full border-collapse text-sm text-gray-700">
+                        <thead className="bg-gray-100 text-xs uppercase tracking-wide text-gray-600">
+                          <tr>
+                            <th className="border-b border-gray-200 px-3 py-3 text-left">#</th>
+                            <th className="border-b border-gray-200 px-3 py-3 text-left">Ürün Adı</th>
+                            <th className="border-b border-gray-200 px-3 py-3 text-left">Barkod</th>
+                            <th className="border-b border-gray-200 px-3 py-3 text-right">Gönderilecek</th>
+                            <th className="border-b border-gray-200 px-3 py-3 text-right">Depoda Kalan</th>
+                            <th className="border-b border-gray-200 px-3 py-3 text-left">Birim</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {secilenUrunler.map((urun, index) => {
+                            const kalan = Math.max(
+                              0,
+                              Number(urun.miktar ?? 0) - Number(urun.transferMiktari ?? 0)
+                            );
+                            return (
+                              <tr key={urun.id} className={index % 2 === 1 ? 'bg-gray-50' : ''}>
+                                <td className="border-b border-gray-200 px-3 py-3 text-xs text-gray-500">
+                                  {index + 1}
+                                </td>
+                                <td className="border-b border-gray-200 px-3 py-3 font-semibold text-gray-900">
+                                  {urun.ad}
+                                </td>
+                                <td className="border-b border-gray-200 px-3 py-3 text-gray-600">
+                                  {urun.barkod || '-'}
+                                </td>
+                                <td className="border-b border-gray-200 px-3 py-3 text-right font-mono">
+                                  {formatMiktar(urun.transferMiktari)}
+                                </td>
+                                <td className="border-b border-gray-200 px-3 py-3 text-right font-mono">
+                                  {formatMiktar(kalan)}
+                                </td>
+                                <td className="border-b border-gray-200 px-3 py-3 text-gray-600">
+                                  {urun.birim || 'adet'}
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
 
                   <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 text-sm text-yellow-800">
