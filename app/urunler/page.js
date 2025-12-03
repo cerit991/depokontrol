@@ -72,6 +72,12 @@ export default function UrunlerPage() {
           </div>
           <div className="flex gap-3">
             <button
+              onClick={() => window.open('/api/urunler-pdf', '_blank')}
+              className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 font-semibold transition-colors"
+            >
+              📄 PDF Al
+            </button>
+            <button
               onClick={() => router.push('/transfer')}
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 font-semibold transition-colors"
             >
