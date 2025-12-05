@@ -71,6 +71,18 @@ export default function HomePage() {
               Gelen sevkiyatları işleyip mevcut ürün stoklarını artırın
             </p>
           </div>
+
+          <div 
+            onClick={() => router.push('/raporlar')}
+            className="bg-white rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow"
+          >
+            <h2 className="text-2xl font-semibold mb-4 text-red-600">
+              📊 Raporlar
+            </h2>
+            <p className="text-gray-600">
+              Teslimat verilerini analiz edin ve genel raporları görüntüleyin
+            </p>
+          </div>
         </div>
       </div>
     </div>
