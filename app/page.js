@@ -83,6 +83,18 @@ export default function HomePage() {
               Teslimat verilerini analiz edin ve genel raporları görüntüleyin
             </p>
           </div>
+
+          <div 
+            onClick={() => router.push('/service-hizi')}
+            className="bg-white rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow"
+          >
+            <h2 className="text-2xl font-semibold mb-4 text-teal-600">
+              ⚡ Servis Hızı
+            </h2>
+            <p className="text-gray-600">
+              Yenileme sürelerini ve hızlı tüketilen ürünleri izleyin
+            </p>
+          </div>
         </div>
       </div>
     </div>
