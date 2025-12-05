@@ -95,6 +95,18 @@ export default function HomePage() {
               Yenileme sürelerini ve hızlı tüketilen ürünleri izleyin
             </p>
           </div>
+
+          <div 
+            onClick={() => router.push('/retro-analiz')}
+            className="bg-white rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transition-shadow"
+          >
+            <h2 className="text-2xl font-semibold mb-4 text-fuchsia-600">
+              🕒 Retro Analiz
+            </h2>
+            <p className="text-gray-600">
+              Geçmiş dönemin transfer akışını ve yoğunluklarını inceleyin
+            </p>
+          </div>
         </div>
       </div>
     </div>
